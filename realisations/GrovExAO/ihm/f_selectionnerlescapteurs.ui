@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>F_SelectionnerLesCapteurs</class>
+ <widget class="QWidget" name="F_SelectionnerLesCapteurs">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>755</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Choix des capteurs</string>
+  </property>
+  <widget class="QLabel" name="LbMaquette">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>160</y>
+     <width>600</width>
+     <height>337</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ValiderMaquette">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>680</y>
+     <width>261</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Valider maquette</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="AnnulerChoixCapteurs">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>710</y>
+     <width>261</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Annuler le choix des capteurs</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
